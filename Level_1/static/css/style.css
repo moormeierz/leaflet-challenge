@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+
 #map,
 body,
 html {
@@ -14,6 +15,8 @@ html {
   line-height: 30px;
   color: rgb(0, 0, 0);
 }
+
+
 .legend i {
   width: 20px;
   height: 20px;

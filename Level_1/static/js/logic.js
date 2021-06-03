@@ -20,7 +20,6 @@ function createFeatures(earthquakeData) {
       "</h3><p>" + 'Depth:  ' + feature.geometry.coordinates[2] + "</p>");
   }
 
-  //---------------------------------------------------------------
 
   // Create functions for circle size
   function circleSize(magnitude) {
@@ -65,8 +64,6 @@ function createFeatures(earthquakeData) {
     });
     return circle
   }
-
-  //---------------------------------------------------------------
 
   // Create a GeoJSON layer containing the features array on the earthquakeData object
   // Run the onEachFeature function once for each piece of data in the array
